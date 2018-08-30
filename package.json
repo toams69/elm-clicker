@@ -1,0 +1,29 @@
+{
+  "name": "elm-clicker",
+  "version": "1.0.0",
+  "description": "An useless clicker",
+  "main": "brunch-config.js",
+  "scripts": {
+    "postinstall": "elm package install -y",
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toams69/elm-clicker.git"
+  },
+  "author": "Thomas Pariaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toams69/elm-clicker/issues"
+  },
+  "homepage": "https://github.com/toams69/elm-clicker#readme",
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^7.1.6",
+    "brunch": "^2.8.2",
+    "elm-fancy-brunch": "^1.0.1",
+    "elm-format": "^0.6.1-alpha",
+    "postcss-brunch": "^2.1.0"
+  }
+}
